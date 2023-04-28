@@ -95,7 +95,7 @@ context('test',() =>{
 
                                                       cy.get('[data-row-key="9"] > :nth-child(9) > .ant-btn').click({force:true})
                                                       cy.get('.ant-popover-buttons > .ant-btn-primary').click({force:true})
-                                                              cy.wait(3000)
+                                                              // cy.wait(3000)
 
 
                                                   })
